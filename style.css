@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  margin-top: 5em;
+}
+
+.score {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 2rem;
+}
+.stage_container {
+  display: flex;
+}
+
+table {
+  border: 0;
+}
+
+.stage {
+  margin: 0 auto;
+}
+.stage > tr {
+  width: 100%;
+  height: 25px;
+}
+.stage > tr > td {
+  width: 25px;
+  height: 25px;
+  outline: 1px solid #ccc;
+}
+.popup {
+  display: none;
+}
+
+.square {
+  background-color: saddlebrown;
+}
+.L {
+  background-color: skyblue;
+}
+.L2 {
+  background-color: teal;
+}
+.I {
+  background-color: red;
+}
+.Z {
+  background-color: orange;
+}
+.Z2 {
+  background-color: purple;
+}
+.H {
+  background-color: yellow;
+}
