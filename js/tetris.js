@@ -267,10 +267,10 @@ export default class Tetris {
       s *= 2
     } else if (s == 3) {
       //triple
-      s *= 4
+      s *= 3
     } else if (s == 4) {
       //tetris
-      s *= 5
+      s *= 4
     }
     this.score += s
     this.scoreScreen.innerText = this.score
